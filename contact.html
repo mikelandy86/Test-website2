@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+    <!--------------------------- head --------------------------->
+    <head>
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mike Landy</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+        <script>
+        $ (function(){
+            $('#header').load('header.html')
+        })
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+
+    <!--------------------------- BODY --------------------------->
+    <body>
+        <header class="header">
+            <div class="nav">
+                <div class="nav-title-container"><img class="nav-title-icon" src="./images/header_logo.png"> <p class="nav-title">Mikael Landy</p></div>
+                <div id="myDIV" class="nav-menu-flex">
+                    <a class="nav-btn" href="./">Home</a>
+                    <a class="nav-btn" href="./about.html">About</a>
+                    <a class="nav-btn" href="./projects.html">Projects</a>
+                    <a class="nav-btn" href="./resume.html">Resume</a>
+                    <a class="nav-btn-active"href="./contact.html">Contact</a>
+                </div>
+            </div>
+        </header>
+        <div class="category-section">
+          <h1 class="section-title">Contact Me</h1>
+          <p class="text-white link-nav"><a href="index.html">Home </a> <span style="margin: 0" class="lnr lnr-arrow-right"></span> <a href="./contact.html">Contact Me</a></p>
+         </div>
+          <div class="section-gap"></div>
+  
+<div class="contact-flex-section">
+    <div class="contact-info-container">
+        <p class="contact-title">LET'S WORK TOGETHER! &#128521
+          </p>
+          <p class="contact-info">If you've got a project in mind, why not get in touch.<br> Let me know if you have any interesting freelance work or projects. Big or small. You can contact me using the form, or by emailing mike.landy@gmail.com.</p>
+          <!-- <img class="contact-image" src="./images/cartoon-me2.png"> -->
+        <div class="symbol-flex-container">
+          <div class="icon-placeholder">
+            <i class="fa fa-phone" style="font-size: 28px;"></i>
+            <p>+46 730 816 555 </p>
+          </div>
+          <div class="icon-placeholder">
+            <i class="fa fa-envelope-o"></i>
+            <p>mike.landy@gmail.com</p>
+          </div>
+          <div class="icon-placeholder">
+            <i class="fa fa-linkedin"></i>
+            <p>linkedin.com/in/mikael-hendler-landy</p>
+          </div>
+        </div>
+    </div>
+    <div class="contact-input-container">
+        <form>
+            <!-- Name input -->
+            <div class="form-outline">
+              <input type="text" placeholder="Name" class="form-control" />
+            </div>
+          <!-- Subjectinput -->
+          <div class="form-outline">
+            <input type="text" placeholder="Subject" class="form-control" />
+          </div>
+            <!-- Email input -->
+            <div class="form-outline">
+              <input type="email" id="form4Example2" placeholder="Email address" class="form-control" />
+            </div>
+          
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control-message" placeholder="Message" rows="4"></textarea>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="contact-btn">Send</button>
+          </form>
+    </div>
+</div>
+</div>
+<footer class="footer">
+  <div class="footer-contact-title">
+      <p>Contact Me</p>
+  </div>
+  <div class="footer-contact-links-container">
+     <div class="footer-link-bg"><i class="fa fa-phone" style="font-size: 20px;"></i></div>
+     <div class="footer-link-bg"><i class="fa fa-envelope-o" style="font-size: 20px;"></i></div>
+     <div class="footer-link-bg"><i class="fa fa-linkedin" style="font-size: 20px;"></i></div>
+  </div>
+  <div class="footer-madeby-container">
+      <p class="footer-madeby-text">© Mikael Landy 2022. All rights reserved.</p>
+  </div>
+</footer>
+    <script>
+        window.addEventListener('scroll',(e)=>{
+          const nav = document.querySelector('.header');
+          if(window.scrollY > 100){
+            nav.classList.add("add-shadow");
+          }else{
+            nav.classList.remove("add-shadow");
+          }
+        });
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="/activepage.js"></script>
+</body>
+</html>
+

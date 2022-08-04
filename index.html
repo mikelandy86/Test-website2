@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <!--------------------------- head --------------------------->
+    <head>
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mike Landy</title>
+        <meta name="description" content="">
+        <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+        <script>
+        $ (function(){
+            $('#header').load('header.html')
+        })
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+
+    <!--------------------------- BODY --------------------------->
+    <body>
+        <header class="header">
+            <div class="nav">
+                <div class="nav-title-container" ><img class="nav-title-icon" src="./images/header_logo.png"> <p class="nav-title">Mikael Landy</p></div>
+                <div class="nav-menu-flex">
+                    <a class="nav-btn-active" href="./">Home</a>
+                    <a class="nav-btn" href="./about.html">About</a>
+                    <a class="nav-btn" href="./projects.html">Projects</a>
+                    <a class="nav-btn" href="./resume.html">Resume</a>
+                    <a class="nav-btn"href="./contact.html">Contact</a>
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </header>
+
+<div class="presentation-section">
+    <div class="presentation-info">
+        <p class="title-intro">Hello, My name is</p>
+        <p class="title-name">Mikael Landy</p>
+        <p class="title-quote">I am an IT-consultant with primary skills in Unity and C#</br> but also has experience with html and css,</br> I’m constantly striving to improve my techniques,</br>expand my skillset and find new opportunities to grow.
+</p>
+        <a class="title-button" href="/contact.html">CONTACT</a>
+    </div>
+    <div>
+        <div class="bigImage-container">
+            <!-- <img class="rotateimg180" style="position: absolute"; width="630px" src="./images/Lovepik_com-401489100-square-geometric-technology-sense-e-commerce-gradient-border.png" alt="Mike Landy" /> -->
+            <div class="avatar">
+                <a href="./index.html">
+                    <div> 
+                        <img src="./images/Avatar-remade.png" alt="Mike Landy">
+                    </div>
+                </a>
+            </div>
+            <!-- <img class="presentation-image" src="./images/PhotoRoom-20220717_002528 (1).png"> -->
+        </div>
+        <p class="title-quote2">“&nbspI have not failed. </br>&nbsp I’ve just found 10,000 ways that won’t work.&nbsp”</br></br>~ Thomas Edison ~</p>
+</div>
+
+</div>
+
+<footer style="text-align: center;" class="footer">
+    <div class="footer-contact-title">
+        <p>Contact Me</p>
+    </div>
+        <div class="footer-contact-links-container">
+           <div class="footer-link-bg"><i class="fa fa-phone" style="font-size: 20px;"></i></div>
+           <div class="footer-link-bg"><i class="fa fa-envelope-o" style="font-size: 20px;"></i></div>
+           <div class="footer-link-bg"><i class="fa fa-linkedin" style="font-size: 20px;"></i></div>
+        </div>
+        <div class="footer-madeby-container">
+            <p class="footer-madeby-text">© Mikael Landy 2022. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('scroll',(e)=>{
+          const nav = document.querySelector('.header');
+          if(window.scrollY > 100){
+            nav.classList.add("add-shadow");
+          }else{
+            nav.classList.remove("add-shadow");
+          }
+        });
+        </script>
+        <script src="/navbar.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="/activepage.js"></script>
+</body>
+</html>
+
