@@ -211,8 +211,8 @@ html {
     transform: rotate(180deg);
   }
 .avatar {
-	width: 300px;
-	height: 300px;
+	width: 600px;
+	height: 600px;
 	box-sizing: border-box;
 	border: 9px white solid;
 	border-radius: 50%;
