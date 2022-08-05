@@ -99,14 +99,14 @@ html {
     font-weight: 800;
 }
 .presentation-section{
-    padding-bottom: 150px;
-    padding-top: 10px;
+    padding-bottom: 220px;
+    padding-top: 100px;
     background-color: rgb(249, 249, 255);
     position: relative;
     height: 600px;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 120px;
     align-items: center;
 
 }
@@ -116,12 +116,12 @@ html {
 .title-intro{
     font-weight: 400;
     letter-spacing: 2px;
-    font-size: 14px;;
+    font-size: 22px;;
 }
 .title-name{
     
     margin: 20px 0;
-    font-size: 60px;
+    font-size: 80px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -129,31 +129,32 @@ html {
 .title-quote{
     color: #777;
     font-family: "Poppins",sans-serif;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: 300;
     line-height: 1.625em;
 }
 .title-quote2{
     color: #777;
     font-family: "Poppins",sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.625em;
     padding-top: 20px; 
      text-align:center;
 }
 .title-button{
-    margin-top: 20px;
+    margin-top: 40px;
     background-image: linear-gradient(to right, #8E54E9, #4776E6); 
     cursor: pointer;
     z-index: 1;
     border-radius: 3px;
-    line-height: 42px;
+    line-height: 52px;
     background: linear-gradient(to right, #8E54E9, #4776E6); 
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-decoration: none;
     border: none;
+    font-size: 21px;
     color: #fff;
     display: inline-block;
     font-weight: 500;
@@ -211,8 +212,8 @@ html {
     transform: rotate(180deg);
   }
 .avatar {
-	width: 600px;
-	height: 600px;
+	width: 410px;
+	height: 410px;
 	box-sizing: border-box;
 	border: 9px white solid;
 	border-radius: 50%;
@@ -614,9 +615,17 @@ border-radius: 50%;
     }
     .presentation-info{
         padding-top: 40px;
+        font-size: 12px;
+    }
+    .title-name{
+        font-size: 50px;
+    }
+    .title-quote{
+        font-size: 15px;
     }
     .title-quote2{
         padding-bottom: 40px;
+        font-size: 14px;
     }
     .title-button{
         z-index: 0;
@@ -624,7 +633,10 @@ border-radius: 50%;
     .bigImage-container{
         padding-top: 75px;
     }
-
+.avatar{
+    height: 300px;
+    width: 300px;
+}
 .burger{
     cursor: pointer;
     margin-right: 60px;
