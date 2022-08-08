@@ -116,12 +116,12 @@ html {
 .title-intro{
     font-weight: 400;
     letter-spacing: 2px;
-    font-size: 18px;;
+    font-size: 16px;;
 }
 .title-name{
     
     margin: 20px 0;
-    font-size: 70px;
+    font-size: 65px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -129,14 +129,14 @@ html {
 .title-quote{
     color: #777;
     font-family: "Poppins",sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.625em;
 }
 .title-quote2{
     color: #777;
     font-family: "Poppins",sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
     padding-top: 20px; 
@@ -212,8 +212,8 @@ html {
     transform: rotate(180deg);
   }
 .avatar {
-	width: 410px;
-	height: 410px;
+	width: 370px;
+	height: 370px;
 	box-sizing: border-box;
 	border: 9px white solid;
 	border-radius: 50%;
