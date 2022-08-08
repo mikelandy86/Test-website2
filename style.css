@@ -472,6 +472,8 @@ padding-top: 34px;
     gap:150px;
     padding-bottom: 70px;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .about-image{
     width: 350px;
