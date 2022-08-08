@@ -651,10 +651,15 @@ border-radius: 50%;
     
     }
     .presentation-section{
-        display: unset;
+        
+    flex-direction: column;
         text-align: center;
     }
+    .bigImage-paragraf-container{
+
+    }
     .presentation-info{
+        order:1;
         padding-top: 40px;
         font-size: 12px;
     }
@@ -665,14 +670,19 @@ border-radius: 50%;
         font-size: 15px;
     }
     .title-quote2{
+        margin: 0;
         padding-bottom: 40px;
         font-size: 14px;
+        display: none;
     }
     .title-button{
         z-index: 0;
     }
     .bigImage-container{
-        padding-top: 75px;
+        width: auto;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 0;
     }
 .avatar{
     height: 300px;
