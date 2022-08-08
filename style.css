@@ -471,9 +471,10 @@ padding-top: 10px;
     justify-content: center;
     gap:150px;
     padding-bottom: 70px;
+    align-items: center;
 }
 .about-image{
-    width: 320px;
+    width: 350px;
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.03);
     border-radius: 2px;
 }
@@ -731,9 +732,11 @@ text-align: center;
 .flex-about-conainer{
     flex-direction: column;
     gap: 50px;
+
 }
 .about-image-container{
     text-align: center;
+
 }
 .about-info-container{
 text-align: center;
