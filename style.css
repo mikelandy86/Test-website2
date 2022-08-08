@@ -457,7 +457,7 @@ padding-top: 34px;
     padding-bottom: 10px;
 }
 .appstore-image{
-padding-top: 10px;
+    padding-top: 2px;
     width: 140px;
     object-fit:contain;
 }
