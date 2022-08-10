@@ -478,7 +478,7 @@ padding-top: 34px;
 }
 .about-image{
     width: 350px;
-    box-shadow: 0px 0px 4px 4px rgba(134, 77, 255, 0.025);
+    box-shadow: 0px 0px 4px 4px rgba(134, 77, 255, 0.06);
     border-radius: 2px;
 
 }
