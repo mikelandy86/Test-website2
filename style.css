@@ -405,7 +405,6 @@ height: 30px;
 }
 .project-flexbox{
     padding-bottom: 100px;
-    padding-right: 50px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
